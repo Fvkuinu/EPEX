@@ -150,6 +150,9 @@ void stop() {
 }
 
 void keyPressed() {
+  if(key == 'p'){
+    saveFrame("hahaha.jpg")
+  }
   if (key == CODED) {
     if (keyCode == SHIFT)  keyState[7] = true;
     

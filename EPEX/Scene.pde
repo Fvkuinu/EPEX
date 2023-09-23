@@ -152,12 +152,12 @@ class Scene{
         noStroke();
         rectMode(CORNER);
         if(!isShowKeyboardControls){
-          rect(0+50, 0+50, 300, 50);
-          textSize(20);
-          textAlign(LEFT, CENTER);
-          fill(255);
-          translate(70, 70);
-          text("Show Keyboard Controls – H", 0, 0);
+          //rect(0+50, 0+50, 300, 50);
+          //textSize(20);
+          //textAlign(LEFT, CENTER);
+          //fill(255);
+          //translate(70, 70);
+          //text("Show Keyboard Controls – H", 0, 0);
         }
         else{
           rect(0+50, 0+50, 500, 310);       
